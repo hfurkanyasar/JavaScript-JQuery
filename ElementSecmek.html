@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <div id="container"></div>
+    <p class="result"></p>
+    <p class="result"></p>
+    <input type="text" name="fname"/>
+    <a href="#"></a>
+
+
+    <script>
+        document.getElementById("container").innerHTML = "GetElementbyID";
+        document.getElementsByClassName("result")[0].innerHTML = "getElementClassName";
+
+        document.getElementsByName("fname")[0].value = 2 + 5;
+
+        document.getElementsByTagName("a")[0].innerHTML = "Hızır furkan yaşar";
+    </script>
+
+
+</body>
+</html>
