@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+
+        var araba = {
+
+            name: "bmw",
+            model: "1.16",
+            weight: 1000,
+            color: "White",
+            start: function () {
+                alert("araba calisti")
+            },
+            drive: function () {
+                alert("araba hareket ediyor")
+            },
+            getInfo: function () {
+                alert(araba.name)
+
+            }
+          
+        };
+        console.log(araba);
+        
+        //özelliklere ulaşmak.
+
+        alert(araba.color);
+
+        //özellikleri değiştirmek.
+
+        araba.color = "Black";
+        alert(araba.color);
+        araba.start();
+        araba.drive();
+        araba.getInfo();
+    </script>
+</body>
+</html>

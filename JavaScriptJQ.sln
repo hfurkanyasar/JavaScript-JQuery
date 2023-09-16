@@ -5,14 +5,17 @@ VisualStudioVersion = 16.0.33920.266
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B241E7A-7455-4B10-B343-B29C3D0258DD}"
 	ProjectSection(SolutionItems) = preProject
-		Datatypes.html = Datatypes.html
 		Degiskenler.html = Degiskenler.html
 		ElementSecmek.html = ElementSecmek.html
+		FonksiyonUygulama.html = FonksiyonUygulama.html
+		Fonsiyonlar.html = Fonsiyonlar.html
 		Index.html = Index.html
 		Mesaj.js = Mesaj.js
+		Object.html = Object.html
 		Operetorler.html = Operetorler.html
 		OutputKomutları.html = OutputKomutları.html
 		syntax.html = syntax.html
+		VeriTurleri.html = VeriTurleri.html
 	EndProjectSection
 EndProject
 Global
