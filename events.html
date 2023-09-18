@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+
+        .area {
+            height:100px;
+            width:200px;
+            background-color:#5555;
+            font-size:20px;
+            color:#ffff;
+        }
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <button onclick="this.innerHTML='Hesaplandı!!!'">Hesapla</button>
+
+    <input type="text" onchange="consol.log('değişti')" />
+
+    <select id="Liste" onchange="document.getElementById('container').innerHTML=this.value">
+        <option>Ankara</option>
+        <option>Bursa</option>
+        <option>Ceyhan</option>
+    </select>
+
+    <div id="container"></div>
+
+    <div class="area" onmouseover="this.innerHTML= 'Uzerinde!!'" onmouseout="this.innerHTML='ayrıldı.'"></div>
+
+
+
+
+
+
+    <script>
+        function test() {
+
+
+        }
+        document.getElementById("container").innerHTML = document.getElementById("Liste").value;
+    </script>
+
+</body>
+</html>
